@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>thriveX.fit</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">thriveX.fit</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.png" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">thriveX.fit has a message:</span>
+                        <h1 class="home__data-title">In merely <b><span id="daysUntil"></span> Days</b>,<br> I'll be stepping into<br>your boundless world.</h1>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/thrivex.fit" target="https://www.instagram.com/thrivex.fit" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Until then, <br>let's embark on this adventure together on</span>
+                            <a href="https://www.instagram.com/thrivex.fit" class="button button--flex button--link home__info-button">
+                                Instagram<i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.png" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">More Information</h2>
+                        <p class="about__description">Thrive, not just survive.<br>
+                            Embrace a journey of empowerment with thriveX.fit, where she guide you to conquer your addictions and thrive.
+                            By the time she comes into your world, let's <b>explore addiction on a personal level</b>, recognizing that it can vary greatly from person to person, while understanding that the core physiological mechanisms in the brain remain consistent. 
+                        </p>
+                        <a href="https://www.instagram.com/thrivex.fit" class="button">Follow on Instagram</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <a href="https://www.instagram.com/thrivex.fit">
+                                <img src="assets/img/about1.png" alt="" class="about__img-one">
+                            </a>
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <a href="https://www.instagram.com/thrivex.fit">
+                                <img src="assets/img/about2.png" alt="" class="about__img-two">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section style="display:none" class="video section">
+                <!-- <h2 class="section__title">Video Tour</h2> -->
+
+                <div class="video__container container">
+                   <!--  <p class="video__description">Find out more with our video of the most beautiful and 
+                        pleasant places for you and your family.
+                    </p> -->
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <!-- <source src="assets/video/video.mp4" type="video/mp4"> -->
+                        </video>
+
+                        <button hidden lass="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 All rigths reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
